@@ -1,0 +1,89 @@
+.container-product {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.product-title {
+    margin: 100px;
+    font-size: 3.5em;
+    /* justify-content: flex-start; */
+}
+
+.col-1{
+    width: 8.3333333333%;
+}
+
+.col-2{
+    width: 16.6666666666%;
+}
+.col-3{
+    width: 24.999999999%;
+}
+.col-4{
+    width: 33.333333332%;
+}
+.col-5{
+    width: 41.666666665%;
+}
+.col-6{
+    width: 49.999999998%;
+}
+.col-6 h3 {
+    margin-left: 300px;
+}
+.left h3{
+    margin-left: 50px;
+}
+.left .text2 {
+    margin-left: 50px;
+}
+.col-6 p{
+    width: 49.999999998%;
+    margin-left: 300px;
+}
+.col-7{
+    width: 58.333333331%;
+}
+.col-8{
+    width: 66.666666664%;
+}
+.col-9{
+    width: 74.999999997%;
+}
+.col-10{
+    width: 83.33333333%;
+}
+.col-11{
+    width: 91.666666663%;
+}
+.col-12{
+    width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+}
+
+@media (max-width: 900px) {
+.row{
+      display: inherit;
+}
+
+.col-1,.col-2,
+.col-3,.col-4,
+.col-5,.col-6,
+.col-7,.col-8,
+.col-9,.col-10,
+.col-11,.col-12 {
+    width: 100%
+  }
+}
