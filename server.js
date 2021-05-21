@@ -19,13 +19,13 @@ app.set('view engine', 'ejs')
 app.use(expressLayouts)
 app.set('views', __dirname + '/views')
 
+//Routers
+const indexRouter = require('./routers/index')
 
 
-app.get('/', (req, res) => {
-    res.render('index')
-})
 
-
+//Use Routers
+app.use('/', indexRouter)
 
 
 
