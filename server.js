@@ -21,11 +21,13 @@ app.set('views', __dirname + '/views')
 
 //Routers
 const indexRouter = require('./routers/index')
+const signupRouter = require('./routers/signup')
 
 
 
-//Use Routers
+//load the router module into the application:
 app.use('/', indexRouter)
+app.use('/signup', signupRouter)
 
 
 
