@@ -341,7 +341,8 @@ footer {
     color: var(--white-color);
   }
 
-.form-signup {
+.form-signup,
+.wrapperfaqs {
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -350,7 +351,7 @@ footer {
     background-color: #f1f1f1;
 }
 
-.wrapper-signup {
+.wrapper-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,12 +363,12 @@ footer {
     background-color: white;
 }
 
-.wrapper-signup h2 {
+.wrapper-form h2 {
     margin-bottom: 40px;
     color: #797979;
 }
 
-.wrapper-signup input {
+.wrapper-form input {
     margin-bottom: 10px;
     border-top-style: none;
     border-left-style: none;
@@ -377,7 +378,8 @@ footer {
     font-size: 10pt;
 }
 
-#formsignup {
+#formsignup,
+#formsignin {
     margin: 0;
     padding: 0;
     display: flex;
@@ -390,4 +392,13 @@ footer {
     border-bottom-style: none;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
     color: #fff;
+}
+
+.faqs-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+
 }

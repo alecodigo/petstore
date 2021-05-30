@@ -22,12 +22,14 @@ app.set('views', __dirname + '/views')
 //Routers
 const indexRouter = require('./routers/index')
 const signupRouter = require('./routers/signup')
-
-
+const signInRouter = require('./routers/signIn')
+const faqsRouter = require('./routers/faqs')
 
 //load the router module into the application:
 app.use('/', indexRouter)
 app.use('/signup', signupRouter)
+app.use('/signin', signInRouter)
+app.use('/faqs', faqsRouter)
 
 
 
